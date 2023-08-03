@@ -1,0 +1,55 @@
+.fim-contet {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  box-shadow: -10px -10px 5cap black;
+}
+.fim-text {
+  color: rgb(36, 35, 35);
+  font-size: 8rem;
+  word-break: break-all;
+  line-height: 1;
+  text-transform: uppercase;
+  max-width: 1ch;
+  opacity: 0.7;
+  transition: 3s;
+  position: relative;
+  left: 100px;
+}
+.fim-text:hover {
+  text-shadow: 3px 3px 10px white;
+}
+.fim-dentro {
+  color: blueviolet;
+  background-color: rgb(10, 10, 10);
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 20px;
+  position: relative;
+  right: 100px;
+}
+.fim-dentro span {
+  color: darkmagenta;
+}
+.fim-dentro h1::before {
+  content: "";
+  padding: 5px 3px;
+  background: linear-gradient(40deg, black, rgb(59, 3, 59));
+  position: relative;
+  right: 23px;
+  top: 5px;
+}
+.maria {
+  font-size: 20px;
+  text-decoration: underline;
+  color: darkmagenta;
+}
+@media (max-width: 399px) {
+  .fim-text {
+    display: none;
+  }
+  .fim-dentro {
+    padding: 15px;
+    right: 0px;
+  }
+}

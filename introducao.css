@@ -1,0 +1,190 @@
+.curso-contet {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin-top: 35px;
+}
+.mensal {
+  background-color: rgb(226, 4, 226);
+  padding: 30px;
+  height: 500px;
+  border-radius: 15px 30px;
+  box-shadow: 5px 5px 40px rgb(240, 173, 184);
+  opacity: 0.7;
+  transition: 0.6s;
+}
+.mensal:hover {
+  opacity: 5;
+  padding: 35px;
+}
+.mensal::before {
+  content: "";
+  padding: 500px 5px;
+  background-color: rgb(245, 242, 242);
+  position: absolute;
+  left: 100px;
+  box-shadow: 5px 5px 30px white;
+}
+.mensal h1 {
+  font-size: 40px;
+}
+.mensal h1::after {
+  content: "";
+  display: block;
+  margin-top: 5px;
+  padding: 2px 20px;
+  background: linear-gradient(90deg, pink, rgb(212, 42, 212), white);
+}
+.mensal-sobre {
+  font-size: 17px;
+}
+.mensal h3 {
+  font-size: 25px;
+}
+.mensal-materia::before {
+  content: "";
+  padding: 2px 2px;
+  margin-right: 5px;
+  background: linear-gradient(pink, white);
+}
+.mensal-materia {
+  line-height: 20px;
+}
+.mensal a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  background-color: blueviolet;
+  position: relative;
+  top: 30px;
+  border-radius: 20px 30px;
+}
+.anual {
+  background-color: rgb(226, 4, 226);
+  padding: 20px;
+  height: 670px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 40px rgb(240, 173, 184);
+  opacity: 0.9;
+  transition: 0.6s;
+}
+.anual:hover {
+  opacity: 5;
+  box-shadow: 5px 5px 50px rgb(243, 183, 193);
+  padding: 25px;
+}
+.anual h1 {
+  font-size: 45px;
+}
+.anual h1::after {
+  content: "";
+  display: block;
+  margin-top: 5px;
+  padding: 2.5px 20px;
+  background: linear-gradient(90deg, pink, rgb(212, 42, 212), white);
+}
+.anual-sobre {
+  font-size: 20px;
+}
+.anual h3 {
+  font-size: 25px;
+}
+.anual-materia {
+  font-size: 15px;
+  line-height: 20px;
+}
+.anual-materia::before {
+  content: "";
+  padding: 2px 2px;
+  margin-right: 5px;
+  background: linear-gradient(pink, white);
+}
+.anual a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  background-color: blueviolet;
+  position: relative;
+  top: 20px;
+  border-radius: 20px 30px;
+}
+
+.compra:hover {
+  border: solid 2px rgb(189, 39, 189);
+}
+.parcerias {
+  background-color: rgb(226, 4, 226);
+  padding: 20px;
+  height: 530px;
+  border-radius: 30px 15px;
+  box-shadow: 5px 5px 40px rgb(240, 173, 184);
+  opacity: 0.7;
+  transition: 0.6s;
+}
+.parcerias::before {
+  content: "";
+  padding: 500px 5px;
+  background-color: rgb(245, 242, 242);
+  position: absolute;
+  right: 100px;
+  box-shadow: 5px 5px 30px white;
+}
+.parcerias:hover {
+  opacity: 5;
+  box-shadow: 5px 5px 50px rgb(243, 183, 193);
+  padding: 25px;
+}
+.parcerias h1 {
+  font-size: 40px;
+}
+.parcerias h1::after {
+  content: "";
+  display: block;
+  margin-top: 5px;
+  padding: 2.5px 20px;
+  background: linear-gradient(90deg, pink, rgb(212, 42, 212), white);
+}
+.parcerias h3 {
+  font-size: 25px;
+}
+.anual-empresas {
+  font-size: 20px;
+  padding: 3px;
+  max-width: 100px;
+}
+.anual-empresas::before {
+  content: "";
+  padding: 2px 2px;
+  margin-right: 5px;
+  background: linear-gradient(pink, white);
+}
+.anual-empresas:hover {
+  font-size: 25px;
+}
+.parcerias a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  background-color: blueviolet;
+  position: relative;
+  top: 20px;
+  border-radius: 20px 30px;
+}
+@media (max-width: 999px) {
+  .parcerias::before {
+    padding: 0px;
+  }
+  .mensal::before {
+    padding: 0px;
+  }
+}
+@media (max-width: 399px) {
+  .curso-contet h1,
+  h2,
+  h3 {
+    font-size: 30px;
+  }
+  .anual {
+    height: 800px;
+  }
+}
