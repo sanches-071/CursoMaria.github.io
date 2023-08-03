@@ -178,7 +178,7 @@
     padding: 0px;
   }
 }
-@media (max-width: 399px) {
+@media (max-width: 450px) {
   .curso-contet h1,
   h2,
   h3 {
