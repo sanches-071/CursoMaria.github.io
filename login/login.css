@@ -1,0 +1,64 @@
+.titulo-superior {
+  text-align: center;
+  font-size: 80px;
+  text-decoration: none;
+  margin-top: 50px;
+  text-shadow: 4px 4px 2px rgb(113, 7, 128);
+  border-bottom: 5px solid rgb(47, 5, 116);
+}
+.titulo-superior a {
+  text-decoration: none;
+  color: black;
+}
+
+.login-contet {
+  background-color: rgb(179, 51, 179);
+  padding: 100px;
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 50px rgb(150, 38, 150);
+  position: relative;
+  bottom: 100px;
+}
+.login-titulo {
+  font-size: 20px;
+  position: relative;
+  bottom: 80px;
+  text-align: center;
+}
+.login-titulo a {
+  font-size: 50px;
+  font-style: oblique;
+}
+
+.login {
+  margin: 20px;
+  border: none;
+  border-bottom: 2px solid rgb(211, 192, 211);
+}
+.input {
+  padding: 10px;
+  background-color: blueviolet;
+  border: none;
+  font-size: 20px;
+}
+.login-fundo {
+  background-color: blueviolet;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 40px black;
+  position: relative;
+  bottom: 40px;
+  transition: 0.8s;
+}
+.login-fundo:hover {
+  padding: 40px;
+}
+
+button {
+  border: none;
+  background-color: rgb(128, 6, 189);
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 14px;
+}
