@@ -1,0 +1,77 @@
+.compra-contet {
+  display: grid;
+  justify-content: center;
+  max-width: 1200px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 30px black;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 700px;
+  margin-top: 100px;
+}
+.titulo-compra h1 {
+  font-size: 60px;
+  color: rgb(156, 11, 156);
+}
+.titulo-compra h1::before {
+  content: "";
+  padding: 2px 5px;
+  background-color: rgb(92, 11, 243);
+  margin-right: 20px;
+  border-radius: 15px;
+}
+input {
+  border-radius: 20px;
+  border: none;
+}
+.flex-1 {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+.flex-1 input {
+  padding: 13px 60px;
+  font-size: 20px;
+  border: none;
+}
+label {
+  display: block;
+  font-size: 20px;
+  color: blueviolet;
+}
+.contet-grid {
+  display: grid;
+  margin-bottom: 30px;
+}
+.contet-grid input {
+  padding: 10px 25px;
+  font-size: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.grid input {
+  font-size: 20px;
+  padding: 10px;
+}
+.botao-compra a {
+  text-decoration: none;
+  color: white;
+  background-color: darkorchid;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.botao-compra a:hover {
+  background-color: blueviolet;
+  padding: 25px;
+  font-size: 32px;
+}
+.botao-compra {
+  margin-top: 100px;
+  text-align: right;
+}

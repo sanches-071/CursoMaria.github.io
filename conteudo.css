@@ -1,25 +1,43 @@
-.titulo-contet {
-  text-align: center;
-  background: url(img/foto2.jpg) no-repeat;
-  box-shadow: 5px 5px 30px rgb(0, 0, 0);
-  height: 400px;
-  background-position: 50% 0;
-  padding: 20px;
+.titulo {
+  background-color: black;
+  padding: 30px;
 }
+
+.titulo-contet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: black;
+}
+
 .titulo-1 {
-  font-size: 50px;
-  margin-bottom: 100px;
-  text-shadow: 3px 3px 20px white;
+  color: white;
+}
+.titulo-2 {
+  gap: 60px;
 }
 .titulo-2 a {
   text-decoration: none;
-  font-size: 30px;
-  padding: 20px;
-  border-radius: 15px;
-  color: black;
-  background: linear-gradient(80deg, violet, black);
-  transition: 0.6s;
+  color: rgb(255, 254, 255);
+  font-size: 20px;
+  position: relative;
 }
+.titulo-2 a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background: #720ec4;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+.titulo-2 a:hover::after {
+  width: 100%;
+}
+
 @media (max-width: 999px) {
   .titulo-2 a {
     word-break: break-all;
@@ -33,14 +51,8 @@
 
 .titulo-2 {
   display: flex;
-  justify-content: center;
-  gap: 100px;
 }
-.titulo-2 a:hover {
-  background: linear-gradient(90deg, white, rgb(224, 146, 224));
-  box-shadow: 3px 3px 20px pink;
-  color: rgb(243, 147, 163);
-}
+
 @media (max-width: 1379px) {
   .titulo-2 {
     flex-wrap: wrap;
@@ -54,14 +66,34 @@
     font-size: 35px;
   }
   .titulo-2 a {
-    padding: 12px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .titulo-2 a {
+    flex-wrap: wrap;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px;
   }
   .titulo-2 {
     gap: 30px;
   }
+  .titulo-1 {
+    font-size: 30px;
+  }
   .titulo-contet {
-    height: 500px;
+    height: 300px;
+  }
+  .titulo-contet {
+    flex-direction: column;
+    background: none;
+  }
+  .titulo {
     background: linear-gradient(rgb(110, 2, 110), black);
+  }
+  .titulo-contet {
+    justify-content: left;
+    max-width: 100%;
+    margin: auto auto;
   }
 }

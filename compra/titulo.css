@@ -1,0 +1,38 @@
+.titulo-fundo {
+  background-color: black;
+  padding: 30px;
+}
+.titulo-flex {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.titulo-flex h1 {
+  color: white;
+  font-size: 50px;
+}
+.flex {
+  display: flex;
+  gap: 60px;
+}
+.flex a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  position: relative;
+}
+.flex a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: #720ec4;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+.flex a:hover::after {
+  width: 100%;
+}
