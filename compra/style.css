@@ -1,0 +1,171 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(14, 13, 13);
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  background-color: black;
+  padding: 15px;
+}
+nav {
+  color: white;
+}
+nav a {
+  margin-right: 40px;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+.nav {
+  font-size: 40px;
+}
+label {
+  color: rgb(235, 229, 229);
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  margin-top: 100px;
+  box-shadow: 10px 10px 50px rgb(235, 5, 235);
+}
+.h1 {
+  font-size: 60px;
+  color: rgb(243, 235, 235);
+}
+span {
+  color: yellow;
+  font-size: 35px;
+}
+.a {
+  grid-column: 1;
+}
+.as label {
+  font-size: 20px;
+  color: white;
+}
+.as {
+  background-color: rgb(0, 0, 0);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.b {
+  display: grid;
+}
+.compra-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.compra-1 {
+  grid-column: 2;
+  background-color: rgb(10, 10, 10);
+  padding: 30px;
+  border-radius: 10px;
+}
+.compra-1 input {
+  margin-bottom: 20px;
+  padding: 20px 40px;
+  font-size: 15px;
+  border-radius: 15px;
+}
+.as label {
+  background-color: rgb(22, 22, 22);
+  padding: 15px;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+
+.cartao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cartao h1 {
+  grid-column: 1/ -1;
+  font-size: 30px;
+}
+.cartao input {
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 15px 10px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.pix {
+  background-color: rgb(5, 5, 5);
+  margin-top: 30px;
+  padding: 30px 50px;
+  max-width: 500px;
+  border-radius: 20px;
+}
+.pix-number {
+  background-color: rgb(20, 20, 20);
+  padding: 15px;
+  border-radius: 20px;
+}
+.pix-number h1 {
+  font-size: 25px;
+  margin: 5px;
+}
+.pix-number p {
+  text-decoration: underline;
+  color: aliceblue;
+}
+.pix-chave {
+  background-color: rgb(20, 20, 20);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.pix-chave h1 {
+  font-size: 18px;
+  margin: 5px;
+}
+.pix-chavep p {
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+.as input:checked + label {
+  color: rgb(8, 238, 0);
+}
+#cartao:checked + label + input + label + .cartao {
+  display: grid;
+}
+#cartao:checked + label + input + label + .cartao + .pix {
+  display: none;
+}
+.cartao {
+  display: none;
+}
+#car {
+  font-size: 30px;
+}
+
+#cartao,
+#pix {
+  display: none;
+}
+button {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  font-size: 20px;
+}
+button:hover {
+  background-color: darkmagenta;
+}
