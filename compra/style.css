@@ -36,10 +36,29 @@ main {
   justify-content: center;
   margin-top: 100px;
   box-shadow: 10px 10px 50px rgb(235, 5, 235);
+  animation: main-animado 4s infinite;
+}
+@keyframes main-animado {
+  from {
+    box-shadow: 10px 10px 50px rgb(235, 5, 235);
+  }
+  to {
+    box-shadow: 8px 8px 45px rgb(228, 82, 228);
+  }
 }
 .h1 {
   font-size: 60px;
   color: rgb(243, 235, 235);
+  animation: h1-animado 4s infinite linear;
+  transition: 1s;
+}
+@keyframes h1-animado {
+  from {
+    color: white;
+  }
+  to {
+    color: blueviolet;
+  }
 }
 span {
   color: yellow;

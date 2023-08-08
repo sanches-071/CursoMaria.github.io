@@ -90,10 +90,22 @@
   }
   .titulo {
     background: linear-gradient(rgb(110, 2, 110), black);
+    height: 350px;
   }
   .titulo-contet {
     justify-content: left;
     max-width: 100%;
     margin: auto auto;
+  }
+}
+@media (max-width: 450px) {
+  .titulo-1 {
+    word-break: break-all;
+    font-size: 25px;
+  }
+  .titulo-2 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
   }
 }

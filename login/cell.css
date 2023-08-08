@@ -14,3 +14,53 @@
     box-shadow: 5px 5px 30px black;
   }
 }
+@media (max-width: 450px) {
+  .nome {
+    font-size: 40px;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .titulo-superior {
+    padding: 80px;
+  }
+  .nome-1 {
+    gap: 20px;
+    margin-top: 30px;
+  }
+  .nome-1 a {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .login-contet {
+    padding: 35px;
+  }
+  .login-fundo {
+    position: relative;
+    right: 10px;
+    padding: 25px;
+  }
+  .sub-titulo {
+    font-size: 20px;
+    left: 10px;
+  }
+}
+@media (max-width: 395px) {
+  .nome {
+    word-break: break-all;
+    font-size: 35px;
+  }
+  .nome-1 a {
+    background-color: black;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  .login-fundo {
+    position: relative;
+    right: 2px;
+    padding: 20px;
+  }
+}

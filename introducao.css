@@ -20,11 +20,13 @@ h3 {
   opacity: 0.4;
   transition: 0.9s;
 }
+
 .mensal:hover {
   opacity: 5;
   padding: 35px;
   box-shadow: 5px 5px 40px rgb(240, 173, 184);
   transition: 0.9;
+  animation: none;
 }
 .mensal::before {
   content: "";
